@@ -41,35 +41,35 @@
             btnUpdateStatus = new Button();
             btnRegisterVehicle = new Button();
             grpParkingStatus = new GroupBox();
-            button26 = new Button();
-            button27 = new Button();
-            button28 = new Button();
-            button29 = new Button();
-            button30 = new Button();
-            button16 = new Button();
-            button17 = new Button();
-            button18 = new Button();
-            button19 = new Button();
-            button20 = new Button();
-            button21 = new Button();
-            button22 = new Button();
-            button23 = new Button();
-            button24 = new Button();
-            button25 = new Button();
-            button6 = new Button();
-            button7 = new Button();
-            button8 = new Button();
-            button9 = new Button();
-            button10 = new Button();
-            button11 = new Button();
-            button12 = new Button();
-            button13 = new Button();
-            button14 = new Button();
-            button15 = new Button();
-            button1 = new Button();
-            button2 = new Button();
-            button3 = new Button();
-            button4 = new Button();
+            btnG5 = new Button();
+            btnG4 = new Button();
+            btnG3 = new Button();
+            btnG2 = new Button();
+            btnG1 = new Button();
+            btnF5 = new Button();
+            btnF4 = new Button();
+            btnF3 = new Button();
+            btnF2 = new Button();
+            btnF1 = new Button();
+            btnE5 = new Button();
+            btnE4 = new Button();
+            btnE3 = new Button();
+            btnE2 = new Button();
+            btnE1 = new Button();
+            btnD5 = new Button();
+            btnD4 = new Button();
+            btnD3 = new Button();
+            btnD2 = new Button();
+            btnD1 = new Button();
+            btnC5 = new Button();
+            btnC4 = new Button();
+            btnC3 = new Button();
+            btnC2 = new Button();
+            btnC1 = new Button();
+            btnB5 = new Button();
+            btnB4 = new Button();
+            btnB3 = new Button();
+            btnB2 = new Button();
             btnB1 = new Button();
             btnA5 = new Button();
             btnA4 = new Button();
@@ -165,6 +165,7 @@
             // 
             // cmbVehicleType
             // 
+            cmbVehicleType.DropDownStyle = ComboBoxStyle.DropDownList;
             cmbVehicleType.FormattingEnabled = true;
             cmbVehicleType.Items.AddRange(new object[] { "Car", "Motorcycle", "Van" });
             cmbVehicleType.Location = new Point(95, 65);
@@ -177,7 +178,7 @@
             label1.AutoSize = true;
             label1.Location = new Point(6, 68);
             label1.Name = "label1";
-            label1.Size = new Size(75, 15);
+            label1.Size = new Size(74, 15);
             label1.TabIndex = 2;
             label1.Text = "Vehicle Type:";
             // 
@@ -229,35 +230,35 @@
             // 
             // grpParkingStatus
             // 
-            grpParkingStatus.Controls.Add(button26);
-            grpParkingStatus.Controls.Add(button27);
-            grpParkingStatus.Controls.Add(button28);
-            grpParkingStatus.Controls.Add(button29);
-            grpParkingStatus.Controls.Add(button30);
-            grpParkingStatus.Controls.Add(button16);
-            grpParkingStatus.Controls.Add(button17);
-            grpParkingStatus.Controls.Add(button18);
-            grpParkingStatus.Controls.Add(button19);
-            grpParkingStatus.Controls.Add(button20);
-            grpParkingStatus.Controls.Add(button21);
-            grpParkingStatus.Controls.Add(button22);
-            grpParkingStatus.Controls.Add(button23);
-            grpParkingStatus.Controls.Add(button24);
-            grpParkingStatus.Controls.Add(button25);
-            grpParkingStatus.Controls.Add(button6);
-            grpParkingStatus.Controls.Add(button7);
-            grpParkingStatus.Controls.Add(button8);
-            grpParkingStatus.Controls.Add(button9);
-            grpParkingStatus.Controls.Add(button10);
-            grpParkingStatus.Controls.Add(button11);
-            grpParkingStatus.Controls.Add(button12);
-            grpParkingStatus.Controls.Add(button13);
-            grpParkingStatus.Controls.Add(button14);
-            grpParkingStatus.Controls.Add(button15);
-            grpParkingStatus.Controls.Add(button1);
-            grpParkingStatus.Controls.Add(button2);
-            grpParkingStatus.Controls.Add(button3);
-            grpParkingStatus.Controls.Add(button4);
+            grpParkingStatus.Controls.Add(btnG5);
+            grpParkingStatus.Controls.Add(btnG4);
+            grpParkingStatus.Controls.Add(btnG3);
+            grpParkingStatus.Controls.Add(btnG2);
+            grpParkingStatus.Controls.Add(btnG1);
+            grpParkingStatus.Controls.Add(btnF5);
+            grpParkingStatus.Controls.Add(btnF4);
+            grpParkingStatus.Controls.Add(btnF3);
+            grpParkingStatus.Controls.Add(btnF2);
+            grpParkingStatus.Controls.Add(btnF1);
+            grpParkingStatus.Controls.Add(btnE5);
+            grpParkingStatus.Controls.Add(btnE4);
+            grpParkingStatus.Controls.Add(btnE3);
+            grpParkingStatus.Controls.Add(btnE2);
+            grpParkingStatus.Controls.Add(btnE1);
+            grpParkingStatus.Controls.Add(btnD5);
+            grpParkingStatus.Controls.Add(btnD4);
+            grpParkingStatus.Controls.Add(btnD3);
+            grpParkingStatus.Controls.Add(btnD2);
+            grpParkingStatus.Controls.Add(btnD1);
+            grpParkingStatus.Controls.Add(btnC5);
+            grpParkingStatus.Controls.Add(btnC4);
+            grpParkingStatus.Controls.Add(btnC3);
+            grpParkingStatus.Controls.Add(btnC2);
+            grpParkingStatus.Controls.Add(btnC1);
+            grpParkingStatus.Controls.Add(btnB5);
+            grpParkingStatus.Controls.Add(btnB4);
+            grpParkingStatus.Controls.Add(btnB3);
+            grpParkingStatus.Controls.Add(btnB2);
             grpParkingStatus.Controls.Add(btnB1);
             grpParkingStatus.Controls.Add(btnA5);
             grpParkingStatus.Controls.Add(btnA4);
@@ -271,295 +272,295 @@
             grpParkingStatus.TabStop = false;
             grpParkingStatus.Text = "Parking Status";
             // 
-            // button26
+            // btnG5
             // 
-            button26.BackColor = Color.LawnGreen;
-            button26.Location = new Point(380, 453);
-            button26.Name = "button26";
-            button26.Size = new Size(68, 52);
-            button26.TabIndex = 34;
-            button26.Text = "G5";
-            button26.UseVisualStyleBackColor = false;
+            btnG5.BackColor = Color.LawnGreen;
+            btnG5.Location = new Point(380, 453);
+            btnG5.Name = "btnG5";
+            btnG5.Size = new Size(68, 52);
+            btnG5.TabIndex = 34;
+            btnG5.Text = "G5";
+            btnG5.UseVisualStyleBackColor = false;
             // 
-            // button27
+            // btnG4
             // 
-            button27.BackColor = Color.LawnGreen;
-            button27.Location = new Point(291, 453);
-            button27.Name = "button27";
-            button27.Size = new Size(68, 52);
-            button27.TabIndex = 33;
-            button27.Text = "G4";
-            button27.UseVisualStyleBackColor = false;
+            btnG4.BackColor = Color.LawnGreen;
+            btnG4.Location = new Point(291, 453);
+            btnG4.Name = "btnG4";
+            btnG4.Size = new Size(68, 52);
+            btnG4.TabIndex = 33;
+            btnG4.Text = "G4";
+            btnG4.UseVisualStyleBackColor = false;
             // 
-            // button28
+            // btnG3
             // 
-            button28.BackColor = Color.LawnGreen;
-            button28.Location = new Point(202, 453);
-            button28.Name = "button28";
-            button28.Size = new Size(68, 52);
-            button28.TabIndex = 32;
-            button28.Text = "G3";
-            button28.UseVisualStyleBackColor = false;
+            btnG3.BackColor = Color.LawnGreen;
+            btnG3.Location = new Point(202, 453);
+            btnG3.Name = "btnG3";
+            btnG3.Size = new Size(68, 52);
+            btnG3.TabIndex = 32;
+            btnG3.Text = "G3";
+            btnG3.UseVisualStyleBackColor = false;
             // 
-            // button29
+            // btnG2
             // 
-            button29.BackColor = Color.LawnGreen;
-            button29.Location = new Point(115, 453);
-            button29.Name = "button29";
-            button29.Size = new Size(68, 52);
-            button29.TabIndex = 31;
-            button29.Text = "G2";
-            button29.UseVisualStyleBackColor = false;
+            btnG2.BackColor = Color.LawnGreen;
+            btnG2.Location = new Point(115, 453);
+            btnG2.Name = "btnG2";
+            btnG2.Size = new Size(68, 52);
+            btnG2.TabIndex = 31;
+            btnG2.Text = "G2";
+            btnG2.UseVisualStyleBackColor = false;
             // 
-            // button30
+            // btnG1
             // 
-            button30.BackColor = Color.LawnGreen;
-            button30.Location = new Point(26, 453);
-            button30.Name = "button30";
-            button30.Size = new Size(68, 52);
-            button30.TabIndex = 30;
-            button30.Text = "G1";
-            button30.UseVisualStyleBackColor = false;
+            btnG1.BackColor = Color.LawnGreen;
+            btnG1.Location = new Point(26, 453);
+            btnG1.Name = "btnG1";
+            btnG1.Size = new Size(68, 52);
+            btnG1.TabIndex = 30;
+            btnG1.Text = "G1";
+            btnG1.UseVisualStyleBackColor = false;
             // 
-            // button16
+            // btnF5
             // 
-            button16.BackColor = Color.LawnGreen;
-            button16.Location = new Point(380, 382);
-            button16.Name = "button16";
-            button16.Size = new Size(68, 52);
-            button16.TabIndex = 29;
-            button16.Text = "F5";
-            button16.UseVisualStyleBackColor = false;
+            btnF5.BackColor = Color.LawnGreen;
+            btnF5.Location = new Point(380, 382);
+            btnF5.Name = "btnF5";
+            btnF5.Size = new Size(68, 52);
+            btnF5.TabIndex = 29;
+            btnF5.Text = "F5";
+            btnF5.UseVisualStyleBackColor = false;
             // 
-            // button17
+            // btnF4
             // 
-            button17.BackColor = Color.LawnGreen;
-            button17.Location = new Point(291, 382);
-            button17.Name = "button17";
-            button17.Size = new Size(68, 52);
-            button17.TabIndex = 28;
-            button17.Text = "F4";
-            button17.UseVisualStyleBackColor = false;
+            btnF4.BackColor = Color.LawnGreen;
+            btnF4.Location = new Point(291, 382);
+            btnF4.Name = "btnF4";
+            btnF4.Size = new Size(68, 52);
+            btnF4.TabIndex = 28;
+            btnF4.Text = "F4";
+            btnF4.UseVisualStyleBackColor = false;
             // 
-            // button18
+            // btnF3
             // 
-            button18.BackColor = Color.LawnGreen;
-            button18.Location = new Point(202, 382);
-            button18.Name = "button18";
-            button18.Size = new Size(68, 52);
-            button18.TabIndex = 27;
-            button18.Text = "F3";
-            button18.UseVisualStyleBackColor = false;
+            btnF3.BackColor = Color.LawnGreen;
+            btnF3.Location = new Point(202, 382);
+            btnF3.Name = "btnF3";
+            btnF3.Size = new Size(68, 52);
+            btnF3.TabIndex = 27;
+            btnF3.Text = "F3";
+            btnF3.UseVisualStyleBackColor = false;
             // 
-            // button19
+            // btnF2
             // 
-            button19.BackColor = Color.LawnGreen;
-            button19.Location = new Point(115, 382);
-            button19.Name = "button19";
-            button19.Size = new Size(68, 52);
-            button19.TabIndex = 26;
-            button19.Text = "F2";
-            button19.UseVisualStyleBackColor = false;
+            btnF2.BackColor = Color.LawnGreen;
+            btnF2.Location = new Point(115, 382);
+            btnF2.Name = "btnF2";
+            btnF2.Size = new Size(68, 52);
+            btnF2.TabIndex = 26;
+            btnF2.Text = "F2";
+            btnF2.UseVisualStyleBackColor = false;
             // 
-            // button20
+            // btnF1
             // 
-            button20.BackColor = Color.LawnGreen;
-            button20.Location = new Point(26, 382);
-            button20.Name = "button20";
-            button20.Size = new Size(68, 52);
-            button20.TabIndex = 25;
-            button20.Text = "F1";
-            button20.UseVisualStyleBackColor = false;
+            btnF1.BackColor = Color.LawnGreen;
+            btnF1.Location = new Point(26, 382);
+            btnF1.Name = "btnF1";
+            btnF1.Size = new Size(68, 52);
+            btnF1.TabIndex = 25;
+            btnF1.Text = "F1";
+            btnF1.UseVisualStyleBackColor = false;
             // 
-            // button21
+            // btnE5
             // 
-            button21.BackColor = Color.LawnGreen;
-            button21.Location = new Point(380, 313);
-            button21.Name = "button21";
-            button21.Size = new Size(68, 52);
-            button21.TabIndex = 24;
-            button21.Text = "E5";
-            button21.UseVisualStyleBackColor = false;
+            btnE5.BackColor = Color.LawnGreen;
+            btnE5.Location = new Point(380, 313);
+            btnE5.Name = "btnE5";
+            btnE5.Size = new Size(68, 52);
+            btnE5.TabIndex = 24;
+            btnE5.Text = "E5";
+            btnE5.UseVisualStyleBackColor = false;
             // 
-            // button22
+            // btnE4
             // 
-            button22.BackColor = Color.LawnGreen;
-            button22.Location = new Point(291, 313);
-            button22.Name = "button22";
-            button22.Size = new Size(68, 52);
-            button22.TabIndex = 23;
-            button22.Text = "E4";
-            button22.UseVisualStyleBackColor = false;
+            btnE4.BackColor = Color.LawnGreen;
+            btnE4.Location = new Point(291, 313);
+            btnE4.Name = "btnE4";
+            btnE4.Size = new Size(68, 52);
+            btnE4.TabIndex = 23;
+            btnE4.Text = "E4";
+            btnE4.UseVisualStyleBackColor = false;
             // 
-            // button23
+            // btnE3
             // 
-            button23.BackColor = Color.LawnGreen;
-            button23.Location = new Point(202, 313);
-            button23.Name = "button23";
-            button23.Size = new Size(68, 52);
-            button23.TabIndex = 22;
-            button23.Text = "E3";
-            button23.UseVisualStyleBackColor = false;
+            btnE3.BackColor = Color.LawnGreen;
+            btnE3.Location = new Point(202, 313);
+            btnE3.Name = "btnE3";
+            btnE3.Size = new Size(68, 52);
+            btnE3.TabIndex = 22;
+            btnE3.Text = "E3";
+            btnE3.UseVisualStyleBackColor = false;
             // 
-            // button24
+            // btnE2
             // 
-            button24.BackColor = Color.LawnGreen;
-            button24.Location = new Point(115, 313);
-            button24.Name = "button24";
-            button24.Size = new Size(68, 52);
-            button24.TabIndex = 21;
-            button24.Text = "E2";
-            button24.UseVisualStyleBackColor = false;
+            btnE2.BackColor = Color.LawnGreen;
+            btnE2.Location = new Point(115, 313);
+            btnE2.Name = "btnE2";
+            btnE2.Size = new Size(68, 52);
+            btnE2.TabIndex = 21;
+            btnE2.Text = "E2";
+            btnE2.UseVisualStyleBackColor = false;
             // 
-            // button25
+            // btnE1
             // 
-            button25.BackColor = Color.LawnGreen;
-            button25.Location = new Point(26, 313);
-            button25.Name = "button25";
-            button25.Size = new Size(68, 52);
-            button25.TabIndex = 20;
-            button25.Text = "E1";
-            button25.UseVisualStyleBackColor = false;
+            btnE1.BackColor = Color.LawnGreen;
+            btnE1.Location = new Point(26, 313);
+            btnE1.Name = "btnE1";
+            btnE1.Size = new Size(68, 52);
+            btnE1.TabIndex = 20;
+            btnE1.Text = "E1";
+            btnE1.UseVisualStyleBackColor = false;
             // 
-            // button6
+            // btnD5
             // 
-            button6.BackColor = Color.LawnGreen;
-            button6.Location = new Point(380, 243);
-            button6.Name = "button6";
-            button6.Size = new Size(68, 52);
-            button6.TabIndex = 19;
-            button6.Text = "D5";
-            button6.UseVisualStyleBackColor = false;
+            btnD5.BackColor = Color.LawnGreen;
+            btnD5.Location = new Point(380, 243);
+            btnD5.Name = "btnD5";
+            btnD5.Size = new Size(68, 52);
+            btnD5.TabIndex = 19;
+            btnD5.Text = "D5";
+            btnD5.UseVisualStyleBackColor = false;
             // 
-            // button7
+            // btnD4
             // 
-            button7.BackColor = Color.LawnGreen;
-            button7.Location = new Point(291, 243);
-            button7.Name = "button7";
-            button7.Size = new Size(68, 52);
-            button7.TabIndex = 18;
-            button7.Text = "D4";
-            button7.UseVisualStyleBackColor = false;
+            btnD4.BackColor = Color.LawnGreen;
+            btnD4.Location = new Point(291, 243);
+            btnD4.Name = "btnD4";
+            btnD4.Size = new Size(68, 52);
+            btnD4.TabIndex = 18;
+            btnD4.Text = "D4";
+            btnD4.UseVisualStyleBackColor = false;
             // 
-            // button8
+            // btnD3
             // 
-            button8.BackColor = Color.LawnGreen;
-            button8.Location = new Point(202, 243);
-            button8.Name = "button8";
-            button8.Size = new Size(68, 52);
-            button8.TabIndex = 17;
-            button8.Text = "D3";
-            button8.UseVisualStyleBackColor = false;
+            btnD3.BackColor = Color.LawnGreen;
+            btnD3.Location = new Point(202, 243);
+            btnD3.Name = "btnD3";
+            btnD3.Size = new Size(68, 52);
+            btnD3.TabIndex = 17;
+            btnD3.Text = "D3";
+            btnD3.UseVisualStyleBackColor = false;
             // 
-            // button9
+            // btnD2
             // 
-            button9.BackColor = Color.LawnGreen;
-            button9.Location = new Point(115, 243);
-            button9.Name = "button9";
-            button9.Size = new Size(68, 52);
-            button9.TabIndex = 16;
-            button9.Text = "D2";
-            button9.UseVisualStyleBackColor = false;
+            btnD2.BackColor = Color.LawnGreen;
+            btnD2.Location = new Point(115, 243);
+            btnD2.Name = "btnD2";
+            btnD2.Size = new Size(68, 52);
+            btnD2.TabIndex = 16;
+            btnD2.Text = "D2";
+            btnD2.UseVisualStyleBackColor = false;
             // 
-            // button10
+            // btnD1
             // 
-            button10.BackColor = Color.LawnGreen;
-            button10.Location = new Point(26, 243);
-            button10.Name = "button10";
-            button10.Size = new Size(68, 52);
-            button10.TabIndex = 15;
-            button10.Text = "D1";
-            button10.UseVisualStyleBackColor = false;
+            btnD1.BackColor = Color.LawnGreen;
+            btnD1.Location = new Point(26, 243);
+            btnD1.Name = "btnD1";
+            btnD1.Size = new Size(68, 52);
+            btnD1.TabIndex = 15;
+            btnD1.Text = "D1";
+            btnD1.UseVisualStyleBackColor = false;
             // 
-            // button11
+            // btnC5
             // 
-            button11.BackColor = Color.LawnGreen;
-            button11.Location = new Point(380, 174);
-            button11.Name = "button11";
-            button11.Size = new Size(68, 52);
-            button11.TabIndex = 14;
-            button11.Text = "C5";
-            button11.UseVisualStyleBackColor = false;
+            btnC5.BackColor = Color.LawnGreen;
+            btnC5.Location = new Point(380, 174);
+            btnC5.Name = "btnC5";
+            btnC5.Size = new Size(68, 52);
+            btnC5.TabIndex = 14;
+            btnC5.Text = "C5";
+            btnC5.UseVisualStyleBackColor = false;
             // 
-            // button12
+            // btnC4
             // 
-            button12.BackColor = Color.LawnGreen;
-            button12.Location = new Point(291, 174);
-            button12.Name = "button12";
-            button12.Size = new Size(68, 52);
-            button12.TabIndex = 13;
-            button12.Text = "C4";
-            button12.UseVisualStyleBackColor = false;
+            btnC4.BackColor = Color.LawnGreen;
+            btnC4.Location = new Point(291, 174);
+            btnC4.Name = "btnC4";
+            btnC4.Size = new Size(68, 52);
+            btnC4.TabIndex = 13;
+            btnC4.Text = "C4";
+            btnC4.UseVisualStyleBackColor = false;
             // 
-            // button13
+            // btnC3
             // 
-            button13.BackColor = Color.LawnGreen;
-            button13.Location = new Point(202, 174);
-            button13.Name = "button13";
-            button13.Size = new Size(68, 52);
-            button13.TabIndex = 12;
-            button13.Text = "C3";
-            button13.UseVisualStyleBackColor = false;
+            btnC3.BackColor = Color.LawnGreen;
+            btnC3.Location = new Point(202, 174);
+            btnC3.Name = "btnC3";
+            btnC3.Size = new Size(68, 52);
+            btnC3.TabIndex = 12;
+            btnC3.Text = "C3";
+            btnC3.UseVisualStyleBackColor = false;
             // 
-            // button14
+            // btnC2
             // 
-            button14.BackColor = Color.LawnGreen;
-            button14.Location = new Point(115, 174);
-            button14.Name = "button14";
-            button14.Size = new Size(68, 52);
-            button14.TabIndex = 11;
-            button14.Text = "C2";
-            button14.UseVisualStyleBackColor = false;
+            btnC2.BackColor = Color.LawnGreen;
+            btnC2.Location = new Point(115, 174);
+            btnC2.Name = "btnC2";
+            btnC2.Size = new Size(68, 52);
+            btnC2.TabIndex = 11;
+            btnC2.Text = "C2";
+            btnC2.UseVisualStyleBackColor = false;
             // 
-            // button15
+            // btnC1
             // 
-            button15.BackColor = Color.LawnGreen;
-            button15.Location = new Point(26, 174);
-            button15.Name = "button15";
-            button15.Size = new Size(68, 52);
-            button15.TabIndex = 10;
-            button15.Text = "C1";
-            button15.UseVisualStyleBackColor = false;
+            btnC1.BackColor = Color.LawnGreen;
+            btnC1.Location = new Point(26, 174);
+            btnC1.Name = "btnC1";
+            btnC1.Size = new Size(68, 52);
+            btnC1.TabIndex = 10;
+            btnC1.Text = "C1";
+            btnC1.UseVisualStyleBackColor = false;
             // 
-            // button1
+            // btnB5
             // 
-            button1.BackColor = Color.LawnGreen;
-            button1.Location = new Point(380, 105);
-            button1.Name = "button1";
-            button1.Size = new Size(68, 52);
-            button1.TabIndex = 9;
-            button1.Text = "B5";
-            button1.UseVisualStyleBackColor = false;
+            btnB5.BackColor = Color.LawnGreen;
+            btnB5.Location = new Point(380, 105);
+            btnB5.Name = "btnB5";
+            btnB5.Size = new Size(68, 52);
+            btnB5.TabIndex = 9;
+            btnB5.Text = "B5";
+            btnB5.UseVisualStyleBackColor = false;
             // 
-            // button2
+            // btnB4
             // 
-            button2.BackColor = Color.LawnGreen;
-            button2.Location = new Point(291, 105);
-            button2.Name = "button2";
-            button2.Size = new Size(68, 52);
-            button2.TabIndex = 8;
-            button2.Text = "B4";
-            button2.UseVisualStyleBackColor = false;
+            btnB4.BackColor = Color.LawnGreen;
+            btnB4.Location = new Point(291, 105);
+            btnB4.Name = "btnB4";
+            btnB4.Size = new Size(68, 52);
+            btnB4.TabIndex = 8;
+            btnB4.Text = "B4";
+            btnB4.UseVisualStyleBackColor = false;
             // 
-            // button3
+            // btnB3
             // 
-            button3.BackColor = Color.LawnGreen;
-            button3.Location = new Point(202, 105);
-            button3.Name = "button3";
-            button3.Size = new Size(68, 52);
-            button3.TabIndex = 7;
-            button3.Text = "B3";
-            button3.UseVisualStyleBackColor = false;
+            btnB3.BackColor = Color.LawnGreen;
+            btnB3.Location = new Point(202, 105);
+            btnB3.Name = "btnB3";
+            btnB3.Size = new Size(68, 52);
+            btnB3.TabIndex = 7;
+            btnB3.Text = "B3";
+            btnB3.UseVisualStyleBackColor = false;
             // 
-            // button4
+            // btnB2
             // 
-            button4.BackColor = Color.LawnGreen;
-            button4.Location = new Point(115, 105);
-            button4.Name = "button4";
-            button4.Size = new Size(68, 52);
-            button4.TabIndex = 6;
-            button4.Text = "B2";
-            button4.UseVisualStyleBackColor = false;
+            btnB2.BackColor = Color.LawnGreen;
+            btnB2.Location = new Point(115, 105);
+            btnB2.Name = "btnB2";
+            btnB2.Size = new Size(68, 52);
+            btnB2.TabIndex = 6;
+            btnB2.Text = "B2";
+            btnB2.UseVisualStyleBackColor = false;
             // 
             // btnB1
             // 
@@ -759,7 +760,7 @@
             label14.AutoSize = true;
             label14.Location = new Point(6, 92);
             label14.Name = "label14";
-            label14.Size = new Size(36, 15);
+            label14.Size = new Size(35, 15);
             label14.TabIndex = 14;
             label14.Text = "Total:";
             // 
@@ -891,6 +892,7 @@
             // 
             // cmbDiscount
             // 
+            cmbDiscount.DropDownStyle = ComboBoxStyle.DropDownList;
             cmbDiscount.FormattingEnabled = true;
             cmbDiscount.Items.AddRange(new object[] { "Employee", "Senior Citizen" });
             cmbDiscount.Location = new Point(104, 36);
@@ -953,35 +955,35 @@
         private Button btnA3;
         private Button btnA2;
         private Button btnA1;
-        private Button button26;
-        private Button button27;
-        private Button button28;
-        private Button button29;
-        private Button button30;
-        private Button button16;
-        private Button button17;
-        private Button button18;
-        private Button button19;
-        private Button button20;
-        private Button button21;
-        private Button button22;
-        private Button button23;
-        private Button button24;
-        private Button button25;
-        private Button button6;
-        private Button button7;
-        private Button button8;
-        private Button button9;
-        private Button button10;
-        private Button button11;
-        private Button button12;
-        private Button button13;
-        private Button button14;
-        private Button button15;
-        private Button button1;
-        private Button button2;
-        private Button button3;
-        private Button button4;
+        private Button btnG5;
+        private Button btnG4;
+        private Button btnG3;
+        private Button btnG2;
+        private Button btnG1;
+        private Button btnF5;
+        private Button btnF4;
+        private Button btnF3;
+        private Button btnF2;
+        private Button btnF1;
+        private Button btnE5;
+        private Button btnE4;
+        private Button btnE3;
+        private Button btnE2;
+        private Button btnE1;
+        private Button btnD5;
+        private Button btnD4;
+        private Button btnD3;
+        private Button btnD2;
+        private Button btnD1;
+        private Button btnC5;
+        private Button btnC4;
+        private Button btnC3;
+        private Button btnC2;
+        private Button btnC1;
+        private Button btnB5;
+        private Button btnB4;
+        private Button btnB3;
+        private Button btnB2;
         private Button btnB1;
         private GroupBox gprCurrentTransaction;
         private Label label8;

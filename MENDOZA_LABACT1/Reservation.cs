@@ -13,7 +13,11 @@ namespace MENDOZA_LABACT1
         public double HoursParked { get; set; }
         public string AssignedSlot { get; set; }
 
-        public double Fee = 0;
+        public double OvertimeFee = 0;
+
+        public double ServiceCharge = 20;
+
+        public double TotalFee = 0;
       
         public Reservation(string plateNumber, string vehicleType, double hoursParked, string assignedSlot)
         {
@@ -24,22 +28,27 @@ namespace MENDOZA_LABACT1
         }
         public double CalculateFee()
         {
-            double service_charge = 20;
             switch (VehicleType.ToLower())
             {
                 case "car":
-                    Fee = HoursParked * 50;
+                    TotalFee = HoursParked * 50;
                     break;
                 case "motorcycle":
-                    Fee = HoursParked * 30;
+                    TotalFee = HoursParked * 30;
                     break;
                 case "van":
-                    Fee = HoursParked * 70;
+                    TotalFee = HoursParked * 70;
                     break;
                 default:
                     return 0;
             }
-            return Fee + service_charge;
+
+            if (HoursParked > 8)
+            {
+                OvertimeFee = (HoursParked - 8) * 30;
+            }
+
+            return TotalFee + ServiceCharge + OvertimeFee ;
         }
     }
 }
