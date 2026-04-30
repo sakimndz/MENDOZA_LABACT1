@@ -217,6 +217,7 @@
             btnUpdateStatus.TabIndex = 1;
             btnUpdateStatus.Text = "Update Status";
             btnUpdateStatus.UseVisualStyleBackColor = true;
+            btnUpdateStatus.Click += btnUpdateStatus_Click;
             // 
             // btnRegisterVehicle
             // 
@@ -828,6 +829,7 @@
             btnClearForm.TabIndex = 20;
             btnClearForm.Text = "Clear Form";
             btnClearForm.UseVisualStyleBackColor = true;
+            btnClearForm.Click += btnClearForm_Click;
             // 
             // btnGenerateReceipt
             // 
@@ -837,6 +839,7 @@
             btnGenerateReceipt.TabIndex = 19;
             btnGenerateReceipt.Text = "Generate Receipt";
             btnGenerateReceipt.UseVisualStyleBackColor = true;
+            btnGenerateReceipt.Click += btnGenerateReceipt_Click;
             // 
             // btnProcessPayment
             // 
@@ -846,6 +849,7 @@
             btnProcessPayment.TabIndex = 2;
             btnProcessPayment.Text = "Process Payment";
             btnProcessPayment.UseVisualStyleBackColor = true;
+            btnProcessPayment.Click += btnProcessPayment_Click;
             // 
             // listBox1
             // 

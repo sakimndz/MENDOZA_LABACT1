@@ -1,8 +1,4 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace MENDOZA_LABACT1
 {
@@ -13,12 +9,11 @@ namespace MENDOZA_LABACT1
         public double HoursParked { get; set; }
         public string AssignedSlot { get; set; }
 
-        public double OvertimeFee = 0;
+        public double StandardFee { get; private set; }
+        public double OvertimeFee { get; private set; }
+        public double ServiceCharge { get; private set; } = 20;
+        public double TotalFee { get; private set; }
 
-        public double ServiceCharge = 20;
-
-        public double TotalFee = 0;
-      
         public Reservation(string plateNumber, string vehicleType, double hoursParked, string assignedSlot)
         {
             PlateNumber = plateNumber;
@@ -26,29 +21,33 @@ namespace MENDOZA_LABACT1
             HoursParked = hoursParked;
             AssignedSlot = assignedSlot;
         }
+
         public double CalculateFee()
         {
+            OvertimeFee = 0;
+            StandardFee = 0;
+
+            double ratePerHour;
             switch (VehicleType.ToLower())
             {
-                case "car":
-                    TotalFee = HoursParked * 50;
-                    break;
-                case "motorcycle":
-                    TotalFee = HoursParked * 30;
-                    break;
-                case "van":
-                    TotalFee = HoursParked * 70;
-                    break;
+                case "car": ratePerHour = 50; break;
+                case "motorcycle": ratePerHour = 30; break;
+                case "van": ratePerHour = 70; break;
                 default:
+                    TotalFee = 0;
                     return 0;
             }
+
+            double billableHours = Math.Min(HoursParked, 8);
+            StandardFee = billableHours * ratePerHour;
 
             if (HoursParked > 8)
             {
                 OvertimeFee = (HoursParked - 8) * 30;
             }
 
-            return TotalFee + ServiceCharge + OvertimeFee ;
+            TotalFee = StandardFee + ServiceCharge + OvertimeFee;
+            return TotalFee;
         }
     }
 }
